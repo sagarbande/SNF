@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Milk SNF Calculator</string>
+    <string name="CLR">CLR</string>
+    <string name="FAT">FAT</string>
+    <string name="SNF">SNF</string>
+    <string name="app.about_label">About</string>
+    <string name="reset">Reset</string>
+    <string name="calculate">Calculate</string>
+</resources>

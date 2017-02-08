@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/milk">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/CLR"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView3"
+                android:textColor="#ef1515"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="50dp"
+                android:paddingLeft="35dp"
+                android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:singleLine="false"
+                android:background="@drawable/round_corners"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FAT"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView2"
+                android:textStyle="bold"
+                android:textColor="#ef1515" />
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="35dp"
+                android:layout_height="50dp"
+                android:inputType="numberDecimal"
+                android:textStyle="bold"
+                android:background="@drawable/round_corners"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/SNF"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"
+                android:id="@+id/textView"
+                android:background="@drawable/round_corners"/>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Calculate"
+                android:textColor="#1839de"
+                android:textStyle="bold"
+                android:background="#f6f206"
+                android:onClick="onClick" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
